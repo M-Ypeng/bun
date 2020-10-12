@@ -1,0 +1,269 @@
+/* 头部样式 */
+.mt_header{
+    width: 100%;
+    height: 80px;
+    background-color: gold;
+}
+.mt_header .mt_header_box{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.mt_header .mt_header_box .icon_text{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 20px;
+    margin-top: -15px;
+}
+.mt_header .mt_header_box .icon-location{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 40px;
+    margin-top: -22px;
+
+}
+.mt_header .mt_header_box .mt_form{
+    padding: 0px 80px;
+    /* width: 100%; */
+    height: 50px;
+    position: relative;
+}
+.mt_header .mt_header_box .mt_form input{
+    height: 50px;
+    width: 100%;
+    margin-top: 14px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    text-indent: 4em;
+}
+.mt_header .mt_header_box .mt_form .icon_search{
+    position: absolute;
+    top: 50%;
+    margin-top: 3px;
+    left: 100px;
+    font-size: 20px;
+    color: #999999;
+}
+.mt_app {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.mt_app .mt_app_box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.mt_app .mt_app_box .mt_app_logo{
+    height: 60px;
+    width: 60px;
+    background-color: gold;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.mt_app .mt_app_box .mt_app-app{
+    height: 40px;
+    width: 80px;
+    background-color: gold;
+    text-emphasis: center;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.mt_app .mt_app_box h3,.mt_app .mt_app_box p{
+    margin-left: 100px;
+    color: white;
+    padding-top: 10px ;
+}
+.mt_nav{
+    height: 200px;
+    width: 100%;
+}
+.mt_nav .mt_nav_box{
+    width: 100%;
+}
+.mt_nav .mt_nav_box ul{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.mt_nav .mt_nav_box li{
+    flex: 1;
+    text-align: center;
+}
+.mt_nav .mt_nav_box .icon_nav{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 55px;
+    font-size: 30px;
+    border-radius:50%;
+    background-color: gold;
+    color: white;
+}
+
+.line{
+    width: 100%;
+    height: 15px;
+    background-color: #f0efed;
+}
+
+.mt_cm_line{
+    height: 2px;
+    width: 98%;
+    float: right;
+    background-color: #ddd8ce;
+}
+.mt_cm .mt_cm_box{
+    line-height: 40px;
+    width: 100%;
+    text-indent: 1em;
+}
+.mt_cm .mt_cm_box ul{
+    width: 100%;
+}
+.mt_cm .mt_cm_box ul li{
+    padding: 10px 0;
+    height: 200px;
+    width: 100%;
+}
+.mt_cm .mt_cm_box ul li span{
+    color: orange;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.mt_cm .mt_cm_box img{
+    float: left;
+    margin-left: 16px;
+}
+.mt_cm .mt_cm_box .mt_cm_menu{
+    float: left;
+}
+.mt_cm .mt_cm_box .mt_cm_more{
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    color: orange;
+    border-bottom: 4px solid #ddd8ce;
+}
+.mt_cm .mt_cm_box .mt_cm_more p{
+    float: left;
+}
+.mt_cm .mt_cm_box .mt_cm_more span{
+    float: right;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.mt_footer{
+    width: 100%;
+}
+.mt_footer .mt_footer_box{
+    width: 100%;
+    display: flex;
+}
+.mt_footer .mt_footer_box .mt_footer_box_left{
+    padding: 20px;
+    height: 60px;
+    flex: 6;
+}
+.mt_footer .mt_footer_box .mt_footer_box_left span{
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
+    background-color: gold;
+}
+.mt_footer .mt_footer_box .mt_footer_box_right{
+    flex: 4;
+    /* background-color: orangered; */
+    text-align: right;
+    padding: 20px;
+    height: 60px;
+}
+.mt_footer .mt_footer_box .mt_footer_box_right span{
+    font-size: 20px;
+    display: inline-block;
+    height: 40px;
+    /* width: 8px; */
+    line-height: 40px;
+}
+.mt_footer .mt_footer_box .mt_footer_box_right .city{
+    color: #a1a1a1;
+}
+.mt_footer .mt_footer_box .mt_footer_box_right .lg{
+    color: gold;
+    padding-left: 3px;
+}
+.mt_footer .mt_footer_nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.mt_footer .mt_footer_nav ul{
+    display: flex;
+}
+.mt_footer .mt_footer_nav li{
+    flex: 1px;
+    text-align: center;
+    position: relative;
+    color: gold;
+}
+.mt_footer .mt_footer_nav li span{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: black;
+}
+.mt_footer .mt_footer_tips{
+    width: 100%;
+    margin-top:30px;
+    text-align: center;
+}
+.mt_footer .mt_footer_tips ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+.mt_footer .mt_footer_tips ul li{
+    margin-left: 13px;
+    flex: 2;
+    text-align:center;
+}
+.mt_footer .mt_footer_tips ol{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+.mt_footer .mt_footer_tips ol li{
+    flex: 1;
+}
+.mt_footer .mt_footer_tips ol li:nth-of-type(1)
+{
+    border-bottom: 1px solid #999999;
+    margin-left: 20px;
+}
+.mt_footer .mt_footer_tips ol li:nth-of-type(3)
+{
+    border-bottom: 1px solid #999999;
+    margin-right: 20px;
+}
